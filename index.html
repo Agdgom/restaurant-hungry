@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style-dist.css">
+    <!-- Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <title>Restaurant Template</title>
+</head>
+<body>
+<div class="container">
+<header class="d-header">
+    <span class="burger"></span>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Booking</a></li>
+            <div class="wheel-logo">
+            </div>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Galerie</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="heading-block">
+        <span class="schedule">
+            Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM
+        </span>
+        <div class="heading">
+            <span class="sub-title">Restaurant</span>
+            <h1 class="title">
+                Hungry People
+            </h1>
+            <div class="heading-btn">
+                <a href="#">Book Table</a>
+                <a href="#">Explore</a>
+            </div>
+        </div>
+        <div class="social-btn">
+            <a href="#" class="fb"></a>
+            <a href="#" class="tw"></a>
+            <a href="#" class="inst"></a>
+        </div>
+    </section>
+    <button class="down-btn"></button>   
+</header>
+<main class="d-main">
+    <section class="about-us">
+        <div class="about-us-content">
+            <h2 class="title">About us</h2>
+            <p class="sub-p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
+            </p>
+            <p class="info-p">
+                Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. 
+                Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. 
+                Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+            </p>
+        </div>
+        
+        <img class="image" src="img/about-img.jpg" alt="Fire wood picture">
+        
+    </section>
+    <section class="our-team">
+        <h3 class="sub-title">Our team</h3>
+        <div class="our-team-content">
+            <h2 class="title">Master Chef</h2>
+            <p class="sub-p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
+            </p>
+            <p class="info-p">
+                Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. 
+                Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. 
+                Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+            </p>
+        </div>
+            
+        <img class="image" src="img/master-chef.jpg" alt="Master chef picture">
+        
+    </section>
+    <section class="book-table">
+        <div class="book-table-content">
+            <h2 class="title">Book Table</h2>
+            <form action="order.php" method="POST" class="customer-form">
+                <input type="text" name="customer_name" id="customer_name" placeholder="Name">
+                <input type="email" name="email" id="customer_email" placeholder="Email">
+                <input type="tel" name="phone" id="customer_phone" placeholder="Phone">
+                <input type="number" name="numberPeople" id="customer_numberPeople" placeholder="People">
+                <input type="date" name="date" id="customer_date">
+                <input type="time" name="time" id="customer_time">
+                <button>Book Now</button>
+            </form>
+        </div>
+        
+        <img class="image" src="img/clock-img.jpg" alt="Clock image">
+        
+        <span class="details">
+            Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, Phone: +40 729 131 637/+40 726 458 782
+        </span>
+    </section>
+    <section class="specialties slider">
+        <div class="slide-item">
+            <img class="image" src="./img/pancake.jpg" alt="Первый слайд">
+            <div class="slide-content">
+                <h2 class="title">Chocolate Pancakes</h2>
+                <p class="sub-p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
+                </p>
+                <p class="info-p">
+                    Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. 
+                    Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. 
+                    Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                </p>
+            </div>
+        </div>
+        <div class="slide-item">
+            <img class="image" src="./img/pancake.jpg" alt="Второй слайд">
+            <div class="slide-content">
+                <h2 class="title">Chocolate Pancakes2</h2>
+                <p class="sub-p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
+                </p>
+                <p class="info-p">
+                    Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. 
+                    Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. 
+                    Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                </p>
+            </div>
+        </div>
+        <div class="slide-item">
+            <img class="image" src="./img/pancake.jpg" alt="Третий слайд">
+            <div class="slide-content">
+                <h2 class="title">Chocolate Pancakes3</h2>
+                <p class="sub-p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
+                </p>
+                <p class="info-p">
+                    Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. 
+                    Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. 
+                    Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+                </p>
+            </div>
+        </div>
+        <div class="slider-dots">
+            <span class="slider-dots-item" onclick="currentSlide(1)"></span> 
+            <span class="slider-dots-item" onclick="currentSlide(2)"></span> 
+            <span class="slider-dots-item" onclick="currentSlide(3)"></span> 
+        </div>
+    </section>
+    <section class="private-events">
+        <h3 class="sub-title">Private Events</h3>
+        <div class="private-events-content">
+            <div class="events-img">
+                <img src="img/test.jpg" alt="Wedding image">
+            </div>
+            <div class="events-img">
+                <img src="img/test2.jpg" alt="Feast image">
+            </div>
+            
+        </div>
+        <span class="details">
+            For private events please call: +40 729 131 637/+40 726 458 782 or use the contact form.
+        </span>
+        <div class="galerie">
+            <img src="img/mazzo.png" alt="Mazzo">
+            <img src="img/fire-wood.jpg" alt="Fire wood">
+            <img src="img/hall-1.jpg" alt="Banquet hall 1">
+            <img src="img/hall-2.jpg" alt="Banquet hall 2">
+        </div>
+    </section>
+    <section class="contact">
+        <h2 class="title">Contact</h2>
+        <span class="sub-title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Duis at velit maximus, molestie est a, tempor magna.
+        </span>
+        <form class="feedback-form" action="message.php" method="POST">
+            <input type="text" name="name" id="contact_name" placeholder="Name">
+            <input type="email" name="email" id="contact_email" placeholder="Email">
+            <input type="tel" name="phone" id="contact_phone" placeholder="Phone">
+            <textarea name="message" id="contact_message" cols="30" rows="10" placeholder="Message"></textarea>
+            <div class="address-data">
+                <span class="restaurant-address">5th London Boulevard, U.K.</span>
+                <span class="restaurant-phone">+40 729 131 637/+40 726 458 782</span>
+                <span class="restaurant-email">office@mindblister.com</span>
+            </div>
+            <button>Send message</button>
+        </form>
+    </section>
+</main>
+<footer class="d-footer">
+    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d521.9941811447338!2d-0.1209491824126991!3d51.51254127851262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604cb07371cbf%3A0x5051927ac6ad5143!2sBoulevard%20Brasserie!5e0!3m2!1ska!2sge!4v1608968438692!5m2!1ska!2sge"
+        width="600" height="600" allowfullscreen="" aria-hidden="false" tabindex="0"
+    ></iframe>
+    <span class="copyright">© Copyright Mindblister  2019</span>
+    <div class="social-btn">
+        <a href="#" class="fb"></a>
+        <a href="#" class="tw"></a>
+        <a href="#" class="inst"></a>
+    </div>
+</footer>
+</div>
+<script src="./js/main.js"></script>
+</body>
+</html>
